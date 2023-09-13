@@ -1,0 +1,83 @@
+#banner{
+    padding: 2em;
+    background: url(assets/SVG/cityscape-blue.svg) no-repeat bottom , url(assets/SVG/bg-circles-bnw.svg) no-repeat right;
+    background-size: contain;
+    height: fit-content;
+}
+
+#banner h2{
+    color: #224292;
+}
+
+.em-orange{
+    color: #F1652F;
+}
+.billers-anim{
+    padding-top: 3em;
+}
+
+.billers-head-content{
+    padding: 50px 150px 50px 00px;
+
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+
+.billers-image{
+    display: flex;
+    margin: auto;
+}
+    .billers-image img{
+        width: 315px;
+    }
+
+#billers{
+    padding: 2em;
+}
+
+.categories{
+    width: 50%;
+    border: 1px solid #898382;
+    padding: 5px;
+    height: 3rem;
+    border-radius: 8px;
+    outline: none;
+    color:#49413E;
+    font: 600;
+}
+    .categories option{
+        font-family: "Proxima Soft";
+        font-size: 1.35rem;
+        padding: 0em 0em 0em 1em;
+        color: #898382;
+    }
+
+.searchbox-billers{
+        width: 50%;
+        border: 1px solid #898382;
+        border-right: none;
+        padding: 5px;
+        height: 2rem;
+        border-radius: 8px 0 0 8px;
+        outline: none;
+        color:#49413E;
+    }
+        .searchbar-billers input{
+            font-family: "Proxima Soft";
+            font-size: 1.15rem;
+            padding: 0em 0em 0em 1em;
+            color: #898382;
+        }
+    
+    .searchbtn-billers{
+        width: 10%;
+        height: 1.5x`rem;
+        border: 1px solid #898382 ;
+        background:#F1652F;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 16px 18px 0;
+        cursor: pointer;
+        font-family: "Proxima Soft";
+        font-size: 20px;
+    }

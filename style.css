@@ -1,0 +1,417 @@
+body{
+    color: #49413E;
+    font-family: Proxima Soft;
+    font-size: 16px;
+}
+
+body,*, *:before, *:after{
+    box-sizing: border-box;
+}  
+body p{
+    line-height: 120%;
+}
+
+footer{
+    background-color: #224292;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2.25rem;
+    color: #224292;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.5rem;
+    color: #F1652F;
+}
+h6{
+    font-size: 1.25rem;
+}
+p{
+    padding: 1.5em 0em;
+    font-weight: 300;
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+.page-header{
+    padding: 1em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 40px 0px rgba(34, 66, 146, 0.15);
+}
+
+    .page-header img{
+        width: 50px;
+        flex-basis: 40%;
+    }
+    .page-header a{
+        text-decoration: none;
+        color: #224292;
+        font-size: 1.2rem;
+        font-weight: 550;
+
+    }
+    .page-header a:hover, a:active{
+        color: #F1652F;
+    }
+    .page-header a:active{
+        color: #F1652F;
+    }
+    .page-header nav{
+        float: right;
+    }
+    .page-header nav li{
+        float: left;
+        padding-right: 1.3rem;
+    }
+    .page-header button{
+        float: right;
+    }
+      .image {
+        flex-basis: 40%
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
+.btn-orange{
+    background-color: #F1652F;
+    color: #FFF;
+    font-family: "Proxima Soft";
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+
+#Home{
+    color: white;
+    background: url(assets/SVG/bg-circles.svg) no-repeat,#224292;
+    background-position: right;
+    background-size: contain;
+    height: fit-content;
+    
+}
+
+.section-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.home-content{
+    padding: 50px 100px;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.home-image{
+    padding-right: 100px;
+}
+    .home-image img{
+        width: 600px;
+    }
+
+.section-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+    .section-head p{
+        color: #898382;
+        font-size: 1.2rem;
+    }
+
+#Services{
+    padding: 2em;
+    justify-content: center;
+}
+
+.services{
+    display: flex;
+    margin: auto;
+    padding: 20px 220px;
+    justify-content: center;
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .services h4 {
+        color: #224292;
+    }
+    
+.services-container {
+    width: 300px;
+    height:350px;
+    padding: 2em;
+    border-radius: 16px;
+    background: rgba(233, 236, 244, 0.40);
+}
+
+
+
+.services-icon
+{
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 145px;
+    height: 145px;
+}
+
+.services-caption{
+    line-height: 120%;
+    padding: 1em 0em;
+}
+
+#GetStarted{
+    padding: 2em;
+    justify-content: center;
+    background: #F6F7FB;
+}
+    #GetStarted img{
+        padding: 0em;
+    }
+
+.getstarted-content {
+    margin: auto;
+    padding: 50px 250px;
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+#Agent {
+    background: #224292;
+    padding: 2em 5em;
+}
+    #Agent h3, ul{
+        color: #FFF;
+    }
+    #Agent ul{
+        padding-left: 7em;
+        gap: 16px;
+    }
+    
+    #Agent ul li{
+        font-size: 1.35rem;
+    }
+
+    #Agent ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-image: url(assets/SVG/check.svg);
+    }
+    
+
+    #Agent p{
+        color: #FFF;
+        font-size: 1.35rem;
+    }
+
+.section-head-2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.agent-content{
+    margin: auto;
+    padding: 10rem;
+}
+
+.agent-ul{
+    margin: auto;
+    padding: 3em 0em;
+}
+
+.agent-map{
+    padding: 2em 4em 2em 2em;
+}
+.agent-map img{
+    width:400px;
+}
+
+.btn-white{
+    background-color: #FFF;
+    color:#224292;
+    font-family: "Proxima Soft";
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+
+.about-content{
+    padding: 2em 5em;
+}
+    .about-content p{
+        font-size: 1.5rem;
+    }
+
+.about-img img{
+    width: 720px;
+}
+
+#GetApp{
+    background: url(assets/SVG/bg-circles-2.svg) no-repeat,#224292;
+    background-size: contain;
+    background-position: bottom;
+    height: fit-content;
+}
+    #GetApp h3 {
+        color: #FFF;
+    }
+    #GetApp p{
+        color: #FFF;
+    }
+
+.getapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .getapp div{
+        text-align: center;
+        padding: 2em;
+        
+    }
+    .getapp p{
+        font-weight: 600;
+    }
+
+.getapp-phone{
+    padding: 1em;
+}
+    .getapp-phone img{
+        width: 600px;
+    }
+
+#Billers{
+    background-color: #F6F7FB;
+}
+
+.billers-logo{
+    padding:3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+    .billers-logo img{
+        height: auto;
+        width: 200px;
+    }
+    .billers-logo div{
+        padding: 2rem;
+    }
+#Contact{
+    padding: 5rem;
+}
+    #Contact img{
+        width: 250px;
+    }
+
+.bg-blue10{
+    padding: 5em;
+    background: #F6F7FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.searchbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox{
+    width: 50%;
+    border: 1px solid #898382;
+    border-right: none;
+    padding: 5px;
+    height: 3rem;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    color:#49413E;
+}
+    .searchbar input{
+        font-family: "Proxima Soft";
+        font-size: 1.35rem;
+        padding: 0em 0em 0em 1em;
+        color: #898382;
+    }
+
+.searchbtn{
+    width: 10%;
+    height: 3rem;
+    border: 1px solid #898382 ;
+    background:#F1652F;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 16px 18px 0;
+    cursor: pointer;
+    font-family: "Proxima Soft";
+    font-size: 20px;
+}
+
+footer{
+    background: #224292;
+    padding: 50px 100px;
+    margin: auto;
+    line-height: 120%;
+}
+
+.footer-socmed img{
+    padding-left: 0.45em;
+    width: 50px;
+}
+
+.footer-aws img{
+    width: 100px;
+}
+
+.footer-logo img{
+    width: 220px;
+}
+
+footer .section-content{
+    padding-bottom: 1em;
+
+}
